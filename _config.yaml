@@ -1,0 +1,56 @@
+profile:
+  first_name: Rodolfo
+  last_name: Ferro
+  contact: 
+    address_one: 108 Astronautas
+    address_two: Futurama Monterrey, MX 37180
+    phone: (477) 160-6285
+  email: rodolfoferroperez@gmail.com
+  description: >
+    I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+
+social:
+  website: https://rodolfoferro.xyz
+  github: https://github.com/RodolfoFerro/
+  twitter: https://twitter.com/FerroRodolfo/
+  linkedin: https://www.linkedin.com/in/rodolfoferro/
+  
+experience:
+  item1:
+    position: Open Data Lead
+    company: LAB León
+    from: July 2018
+    to: Present
+    description: >
+      Pushing efforts to open data in the city.
+  item2:
+    position: Lead ML Engineer 
+    company: Omdena
+    from: May 2019
+    to: July 2019
+    description: >
+      Lead ML engineer in Omdena's collaborative tree identification challenge to prevent fire outbursts.
+    link: https://medium.com/omdena/building-ai-for-good-by-the-people-for-the-people-d98ad78b5001
+  item3:
+    position: Jr. Python Software Developer
+    company: CloudLinux
+    from: February 2019
+    to: May 2019
+    description: >
+      In charge of building automation solutions with Python.
+  item4:
+    position: AI Research Assistant
+    company: Research Center in Mathematics (CIMAT A.C.)
+    from: February 2018
+    to: February 2019
+    description: >
+      Building neural network models for industry problems.
+
+education:
+  entry1:
+    institution: University of Guanajuato
+    program: Bachelor of Mathematics
+    description: Major in Mathematics with Mathematical Computing as terminal area.
+    from: August 2011
+    to: July 2018
+    
