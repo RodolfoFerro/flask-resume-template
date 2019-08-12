@@ -1,28 +1,39 @@
+# Profile section
 profile:
   first_name: Rodolfo
   last_name: Ferro
+  picture: https://rodolfoferro.xyz/assets/images/profile.jpg   # Hosted picture
+  # picture: static/img/profile.jpg  # Local picture
   contact: 
-    address_one: 108 Astronautas
-    address_two: Futurama Monterrey, MX 37180
-    phone: (477) 160-6285
+    address_one: León, Guanajuato
+    address_two: 
+    phone: (477) ASK-4-IT! 
   email: rodolfoferroperez@gmail.com
   description: >
-    I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+    I am a science enthusiast, experienced in the development of tech solutions using automation, artificial intelligence, web services, computer vision, data extraction and data analysis.
+    
+    An eternal learner.
 
+
+# Social section
 social:
   website: https://rodolfoferro.xyz
   github: https://github.com/RodolfoFerro/
   twitter: https://twitter.com/FerroRodolfo/
   linkedin: https://www.linkedin.com/in/rodolfoferro/
-  
+  facebook: 
+  medium: https://medium.com/@FerroRodolfo
+
+
+# Experience section
 experience:
   item1:
-    position: Open Data Lead
-    company: LAB León
+    position: Open Data Coordinator
+    company: LAB León / General Direction of Innovation León
     from: July 2018
     to: Present
     description: >
-      Pushing efforts to open data in the city.
+      Pushing efforts to open data (and work with) in the city. Helping the city with trainings for digital jobs.
   item2:
     position: Lead ML Engineer 
     company: Omdena
@@ -44,13 +55,126 @@ experience:
     from: February 2018
     to: February 2019
     description: >
-      Building neural network models for industry problems.
+      Building neural network vision models for academic purposes, focused on applications and solutions for real industry problems.
+  reference: https://rodolfoferro.xyz/resume/
 
+
+# Education section
 education:
-  entry1:
-    institution: University of Guanajuato
+  item1:
+    institution: Artificial Intelligence CONACYT Consortium – CIMAT A.C.
+    program: Winter School on Artificial Intelligence
+    description: Attendee to workshops on optimization, deep learning and reinforcement learning.
+    from: February 2019
+    to: February 2019
+  item2:
+    institution: University of Guanajuato / CIMAT A.C.
     program: Bachelor of Mathematics
     description: Major in Mathematics with Mathematical Computing as terminal area.
     from: August 2011
     to: July 2018
+  item3:
+    institution: Harvard University
+    program: Summer Internship – Adapting machine learning techniques for chemistry problems.
+    description: Attendee to workshops on optimization, deep learning and reinforcement learning.
+    from: June 2017
+    to: August 2017
+  reference: https://rodolfoferro.xyz/resume/
+
+
+# Community section:
+community:
+  item1:
+    institution: Future Lab
+    program: Co-founder and Coordinator
+    description: Co-founder and coordinator of Future Lab, a community of tech developers for the future.
+    from: April 2017
+    to: Present
+    link: https://futurelab.mx
+  item2:
+    institution: GitHub Education
+    program: GitHub Campus Experts Program
+    description: Mexican member of the GitHub Campus Experts Program, encouraging to empowe other student communities.
+    from: October 2017
+    to: Present
+    link: https://githubcampus.expert/RodolfoFerro/
+  item3:
+    institution: Clubes de Ciencia México
+    program: Guanajuato Comitee Member and Instructor
+    description: Co-organizer of the intensive one-week summer science workshops of Clubes de Ciencia México in Guanajuato.
+    from: June 2017
+    to: August 2017
+    link: https://www.clubesdeciencia.mx
+  reference: https://rodolfoferro.xyz/resume/
+  
+
+
+# Skills section
+tools:
+  # Consider that the following are fa icons:
+  #   https://fontawesome.com/icons?d=gallery&s=brands
+  - python
+  - r-project
+  - raspberry-pi
+  - google
+  - git-alt
+  - github
+  - slack
+  - trello
+  - markdown
+  - html5
+  - bootstrap
+extra_skills:
+  - Web scraping
+  - Web automation
+  - APIs development
+  - Image processing
+  - Machine learning
+  - Deep learning
+  
     
+# Projects section
+projects:
+  item1:
+    title: flask-micro-template
+    subtitle: A micro template built with Flask
+    description: A micro template built with Flask and Bootstrap. Used for minimal testing in Glitch.
+    link: https://flask-micro-template.glitch.me
+    github: https://github.com/RodolfoFerro/flask-micro-template
+  item2:
+    title: moltransform
+    subtitle: Python package
+    description: Molecular transformations for graphic displaying using Cartesian coordinates.
+    link: https://pypi.org/project/moltransform/
+    github: https://github.com/RodolfoFerro/moltransform
+  item3:
+    title: PythonBaseAPI
+    subtitle: API template built with Flask
+    description: API template built with Python and Flask. Content for a workshop.
+    link: https://docs.google.com/presentation/d/e/2PACX-1vSc7Q82-lwQ8fKgR5WcT7Y0r9kotcYiNuyYjHRlF-fdhf6lkIrF9B_2akvzL-ZQ6ZAyT1lxM9f0mPdx/pub?start=false&loop=false&delayms=3000
+    github: https://github.com/RodolfoFerro/PythonBaseAPI
+  item4:
+    title: EmojiMerida
+    subtitle: Google Colab Notebook
+    description: A real-time coding session with an emotion recognizer on facial expressions for a Data Mérida meetup (01/04/2019). The Ai was developed with Python and Keras.
+    link: https://colab.research.google.com/github/RodolfoFerro/EmojiMerida/blob/master/Data_M%C3%A9rida.ipynb
+    github:
+  item5:
+    title: FitbitVersa-SimpleOmnitrix
+    subtitle: Fitbit Versa Clockface
+    description: My first clock face for Fitbit Versa, inspired in Ben 10's Omnitrix.
+    link: https://gallery.fitbit.com/details/6c75fa41-8de0-41db-b851-f21f7447018b
+    github: https://github.com/RodolfoFerro/FitbitVersa-SimpleOmnitrix
+
+
+# Certifications and awards section
+awards:
+  - Academy and Technology – Statal Youth Prize Guanajuato 2018
+  - Quantum Computing 101 – IBM Q Certification Badge 2018
+  - 1st. Place – HDI Challenge – Talent City Hackathon 2018
+  - 1st. Place – SWITCH Hackathon 2017
+  - 1st. Place – IBM Hackapalooza – Bluehack Hackathon 2017
+  - 1st. Place – Centro Fox National Hackathon 2017
+  - Silver Award – SynBio Giant Jamboree – iGEM  2016
+  - 1st. Place – Fintech – HackBajío Hackathon 2017
+  
