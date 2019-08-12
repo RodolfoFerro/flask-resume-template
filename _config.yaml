@@ -136,30 +136,36 @@ extra_skills:
 # Projects section
 projects:
   item1:
+    title: flask-resume-template
+    subtitle: A resume template built with Flask
+    description: An easy-to-configure simple resume template built with Flask and Bootstrap.
+    link: https://flask-resume-template.glitch.me
+    github: https://github.com/RodolfoFerro/flask-resume-template/
+  item2:
     title: flask-micro-template
     subtitle: A micro template built with Flask
     description: A micro template built with Flask and Bootstrap. Used for minimal testing in Glitch.
     link: https://flask-micro-template.glitch.me
     github: https://github.com/RodolfoFerro/flask-micro-template
-  item2:
+  item3:
     title: moltransform
     subtitle: Python package
     description: Molecular transformations for graphic displaying using Cartesian coordinates.
     link: https://pypi.org/project/moltransform/
     github: https://github.com/RodolfoFerro/moltransform
-  item3:
+  item4:
     title: PythonBaseAPI
     subtitle: API template built with Flask
     description: API template built with Python and Flask. Content for a workshop.
     link: https://docs.google.com/presentation/d/e/2PACX-1vSc7Q82-lwQ8fKgR5WcT7Y0r9kotcYiNuyYjHRlF-fdhf6lkIrF9B_2akvzL-ZQ6ZAyT1lxM9f0mPdx/pub?start=false&loop=false&delayms=3000
     github: https://github.com/RodolfoFerro/PythonBaseAPI
-  item4:
+  item5:
     title: EmojiMerida
     subtitle: Google Colab Notebook
     description: A real-time coding session with an emotion recognizer on facial expressions for a Data Mérida meetup (01/04/2019). The Ai was developed with Python and Keras.
     link: https://colab.research.google.com/github/RodolfoFerro/EmojiMerida/blob/master/Data_M%C3%A9rida.ipynb
     github:
-  item5:
+  item6:
     title: FitbitVersa-SimpleOmnitrix
     subtitle: Fitbit Versa Clockface
     description: My first clock face for Fitbit Versa, inspired in Ben 10's Omnitrix.
