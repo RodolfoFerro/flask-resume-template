@@ -42,6 +42,9 @@
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
@@ -51,7 +54,7 @@
           <a class="nav-link js-scroll-trigger" href="#community">Community</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          <a class="nav-link js-scroll-trigger" href="#workshops">Workshops</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
@@ -99,6 +102,32 @@
 
     <hr class="m-0">
 
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          {% for item in data.tools %}
+          <li class="list-inline-item">
+            <i class="fab fa-{{ item }}"></i>
+          </li>
+          {% endfor %}
+        </ul>
+        
+        <div class="subheading mb-3">Extra skills / knowledge</div>
+        <ul class="fa-ul mb-0">
+          {% for item in data.extra_skills %}
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            {{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
@@ -122,7 +151,6 @@
         <p>For a detailed reference about this section, please visit <a href="{{ item }}" target="_blank">this link</a>.</p>
         {% endif %}
         {% endfor %}
-
       </div>
 
     </section>
@@ -150,7 +178,6 @@
         <p>For a detailed reference about this section, please visit <a href="{{ item }}" target="_blank">this link</a>.</p>
         {% endif %}
         {% endfor %}
-
       </div>
     </section>
 
@@ -179,33 +206,41 @@
         <p>For a detailed reference about this section, please visit <a href="{{ item }}" target="_blank">this link</a>.</p>
         {% endif %}
         {% endfor %}
-
       </div>
     </section>
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="workshops">
       <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          {% for item in data.tools %}
-          <li class="list-inline-item">
-            <i class="fab fa-{{ item }}"></i>
+        <h2 class="mb-5">Talks &amp; Workshops</h2>
+        <p>Some of my most recent talks and workshops are...</p>
+        <ul class="fa-ul mb-0">
+          {% for _, item in data.workshops.items() %}
+          <li>
+            {% if _ != 'reference' %}
+            <i class="fa-li fa fa-shapes text-info"></i>
+            <strong>{{ item.event }}</strong>
+            {% if item.material != None %}
+            <sup><a href='{{ item.material }}' target="_blank" class="badge badge-pill badge-primary">
+              Material <i class="fa fa-external-link-alt text-light"></i>
+            </a></sup>
+            {% endif %}
+            {% if item.link != None %}
+            <sup><a href='{{ item.link }}' target="_blank" class="badge badge-pill badge-danger">
+              Event site <i class="fa fa-external-link-alt text-light"></i>
+            </a></sup>
+            {% endif %}
+            <br> {{ item.workshop }} 
+            {% endif %}
           </li>
           {% endfor %}
         </ul>
-        
-        <div class="subheading mb-3">Extra skills / knowledge</div>
-        <ul class="fa-ul mb-0">
-          {% for item in data.extra_skills %}
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            {{ item }}</li>
-          {% endfor %}
-        </ul>
+        {% if 'reference' in data.workshops.keys() %}
+        <br><br>
+        <p>(More talks have happened between those dates <i>–most of them about AI–</i>, I'm only adding the most relevant ones in that period of time.)</p>
+        <p>For a detailed reference about this section, please visit <a href="{{ data.workshops.reference }}" target="_blank">this link</a>.</p>
+        {% endif %}
       </div>
     </section>
 
@@ -220,10 +255,16 @@
           {% for _, item in data.projects.items() %}
           <div class="col-md-4 mb-5">
             <div class="card h-100">
+              <img src="static/img/{{ item.img }}" class="card-img-top" alt="{{ item.title }}">
               <div class="card-body">
                 <h3 class="card-title">{{ item.title }}</h3>
                 <h5 class="card-title">{{ item.subtitle }}</h5>
                 <p class="card-text">{{ item.description }}</p>
+                <p>
+                  {% for tag in item.tags %}
+                  <span class="badge badge-pill badge-secondary">{{ tag }}</span>
+                  {% endfor %}
+                </p>
               </div>
               <div class="card-footer">
                 {% if item.github != None %}
