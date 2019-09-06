@@ -28,11 +28,19 @@ social:
 
 # Experience section
 experience:
+  item0:
+    position: Community Leader
+    company: Codeando México
+    from: September 2019
+    to: Present
+    description: >
+      Codeando México mainly focuses on executing activities that connect society and governments, the usage of technologies and internet-based solutions for civic purposes.
+    link: http://codeandomexico.org/
   item1:
     position: Open Data Coordinator
     company: LAB León / General Direction of Innovation León
     from: July 2018
-    to: Present
+    to: September 2019
     description: >
       Pushing efforts to open (and work with) data in the city. Helping the city with trainings for digital jobs, including programming courses on Python and web development.
   item2:
