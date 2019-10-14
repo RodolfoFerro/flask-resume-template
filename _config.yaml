@@ -2,8 +2,8 @@
 profile:
   first_name: Rodolfo
   last_name: Ferro
-  picture: https://rodolfoferro.xyz/assets/images/profile.jpg   # Hosted picture
-  # picture: static/img/profile.jpg  # Local picture
+  # picture: https://rodolfoferro.xyz/assets/images/profile.jpg   # Hosted picture
+  picture: static/img/rodo.gif  # Local picture
   contact: 
     address_one: León, Guanajuato
     address_two: 
