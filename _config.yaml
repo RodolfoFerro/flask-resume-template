@@ -4,14 +4,14 @@ profile:
   last_name: Ferro
   # picture: https://rodolfoferro.xyz/assets/images/profile.jpg   # Hosted picture
   picture: static/img/rodo.gif  # Local picture
-  contact: 
+  contact:
     address_one: León, Guanajuato
-    address_two: 
-    phone: (477) ASK-4-IT! 
+    address_two:
+    phone: (477) ASK-4-IT!
   email: rodolfoferroperez@gmail.com
   description: >
     I am a science enthusiast, an AI practitioner experienced in the development of tech solutions using automation, artificial intelligence models, web services, computer vision, data extraction and data analysis. Helping startups and entrepreneurs with the power of AI.
-    
+
     An eternal learner.
 
 
@@ -21,7 +21,7 @@ social:
   github: https://github.com/RodolfoFerro/
   twitter: https://twitter.com/FerroRodolfo/
   linkedin: https://www.linkedin.com/in/rodolfoferro/
-  facebook: 
+  facebook:
   dev: https://dev.to/rodolfoferro
   medium: https://medium.com/@FerroRodolfo
 
@@ -47,12 +47,12 @@ experience:
     position: AI Consultant
     company: NULLSEC (Startup)
     from: July 2019
-    to: Present
+    to: September 2019
     description: >
       Working as an AI consultant for NULLSEC, a computer security company focused on ethical hacking. Particularly helping in the development of NullRansom, an analyzer-debugger software with the purpose of filtering TCP protocol requests, preventing preventively being targeted by malware and ransomware viruses.
     link: http://www.nullsec.site
   item3:
-    position: Lead ML Engineer 
+    position: Lead ML Engineer
     company: Omdena
     from: May 2019
     to: July 2019
@@ -101,6 +101,13 @@ education:
 
 # Community section:
 community:
+  item0:
+    institution: Omdena
+    program: Community Builder
+    description: "Selected as a community builder at Omdena due to exemplary performance in their AI challenge on the tree identification challenge to prevent fire outbursts."
+    from: September 2019
+    to: Present
+    link: https://omdena.com
   item1:
     institution: Future Lab
     program: Co-founder and Coordinator
@@ -130,7 +137,7 @@ community:
     to: July 2015
     link: https://www.meetup.com/es/GDGLeon/
   reference: https://rodolfoferro.xyz/resume/
-  
+
 
 
 # Skills section
@@ -159,54 +166,64 @@ extra_skills:
   - Many Python packages – Flask, NumPy, matplotlib, Tensorflow, etc.
 
 
-# Certifications and awards section
+# Talks and workshops section
 workshops:
   item0:
+    event: TEDxUNAMLeón
+    workshop: AI in modern times, February 2020.
+    material:
+    link: https://www.ted.com/tedx/events/35293
+  item1:
+    event: PyCon Colombia 2020
+    workshop: 'Workshop – DLaaS: Building cloud-based intelligent solutions, February 2020.'
+    material: https://github.com/RodolfoFerro/PyConCo20
+    link: https://www.pycon.co/ponentes/rodolfo-ferro/
+  item2:
     event: International Meeting on Artificial Intelligence and its Applications (RIIAA) 2.0.
     workshop: Workshop – Deep Learning as a Service (DLaaS), August 2019.
     material: https://github.com/RodolfoFerro/RIIAA19-DLaaS
     link: https://riiaa.org
-  item1:
+  item3:
     event: LAB León Web Dev Crash Course 2019.
     workshop: Crash Course – Introduction to Web Development with Python and Flask, August 2019.
     material: https://github.com/RodolfoFerro/Flask101
     link: https://flask101.glitch.me
-  item2:
+  item4:
     event: DevDay León 2019 by Hackademy.
     workshop: Workshop – (AI) API development with Python, August 2019.
     material: https://github.com/RodolfoFerro/PythonBaseAPI
-    link: 
-  item3:
+    link:
+  item5:
     event: Clubes de Ciencia México 2019.
     workshop: Workshop – Revealing the Hidden Hyperspectrum with Artificial Neurons, July 2019.
     material: https://rodolfoferro.xyz/hyperspectrum/
-    link: 
-  item4:
+    link:
+  item6:
     event: DevDay Mérida 2019.
     workshop: Workshop – Artificial Intelligence with Python, July 2019.
     material: https://github.com/RodolfoFerro/DevDayMid2019
-    link: 
-  item5:
+    link:
+  item7:
     event: Talent Land 2019.
     workshop: Talk – A.I. in modern times, April 2019.
-    material: 
+    material:
     link: https://jaliscotalentland2019.sched.com/event/MzAs/inteligencia-artificial-en-tiempos-modernos
-  item6:
+  item8:
     event: PythonDay México 2018.
     workshop: Talk – Data Science with Python, December 2018.
     material: https://github.com/RodolfoFerro/DataSciPy
-    link: 
-  item7: 
+    link:
+  item9:
     event: PythonDay México 2018.
     workshop: Workshop – Machine Learning as a Service (MLaaS), November 2018.
     material: https://github.com/RodolfoFerro/MLaaS
-    link: 
-  item8: 
+    link:
+  item10:
     event: HERE Hackathon at Technological University of Leon.
     workshop: Mentor on the event. Talk – Integration of Technological Solutions, November 2018.
     material: https://github.com/RodolfoFerro/HereHackathon
-    link: 
-  item9: 
+    link:
+  item11:
     event: 6th. International Conference in Software Engineering Research and Innovation (CONISOFT).
     workshop: Workshop – Introduction to Neural Networks with Keras, October 2018.
     material: https://github.com/RodolfoFerro/CONISOFT2018
@@ -259,7 +276,7 @@ projects:
   item6:
     title: PythonBaseAPI
     subtitle: API template built with Flask
-    description: API template built with Python and Flask. Serve an Iris classifier as an API. Content for a workshop. 
+    description: API template built with Python and Flask. Serve an Iris classifier as an API. Content for a workshop.
     link: https://docs.google.com/presentation/d/e/2PACX-1vSc7Q82-lwQ8fKgR5WcT7Y0r9kotcYiNuyYjHRlF-fdhf6lkIrF9B_2akvzL-ZQ6ZAyT1lxM9f0mPdx/pub?start=false&loop=false&delayms=3000
     github: https://github.com/RodolfoFerro/PythonBaseAPI
     img: python-base-api.png
@@ -292,6 +309,7 @@ projects:
 
 # Certifications and awards section
 awards:
+  - 'Winner – #TFWorld TF 2.0 Challenge – TensorFlow at Devpost 2020'
   - Academy and Technology – Statal Youth Prize Guanajuato 2018
   - Quantum Computing 101 – IBM Q Certification Badge 2018
   - 1st. Place – HDI Challenge – Talent City Hackathon 2018
@@ -303,4 +321,3 @@ awards:
   - Silver Award – SynBio Giant Jamboree – iGEM  2016
   - 1st. Place – 4th. Creativity and Innovation Contest, DCNE-UG 2016
   - 1st. Place – Fintech – HackBajío Hackathon 2016
-  
