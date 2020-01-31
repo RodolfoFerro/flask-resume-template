@@ -1,4 +1,4 @@
-import yaml
+import oyaml as yaml
 from flask import Flask
 from flask import render_template
 
