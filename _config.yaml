@@ -2,17 +2,21 @@
 profile:
   first_name: Rodolfo
   last_name: Ferro
-  # picture: https://rodolfoferro.xyz/assets/images/profile.jpg   # Hosted picture
-  picture: static/img/rodo.gif  # Local picture
+  picture: https://cdn.glitch.com/88028f3b-2a37-4207-9b84-e56ad97a9d3d%2Frodo_2021.png?v=1622471953248   # Hosted picture
+  # picture: static/img/rodo_2021.png  # Local picture
   contact:
     address_one: León, Guanajuato
     address_two:
     phone: (477) ASK-4-IT!
   email: rodolfoferroperez@gmail.com
-  description: >
-    I am a science enthusiast, an AI practitioner experienced in the development of tech solutions using automation, artificial intelligence models, web services, computer vision, data extraction and data analysis. Helping startups and entrepreneurs with the power of AI.
-
-    An eternal learner.
+  description: |
+    I am a Machine Learning Engineer at Zetalabs S.L. (Spain) and I also collaborate as a Digital Sherpa for the national education program "Innovacción Virtual" with Microsoft Mexico.
+    
+    I've worked as a Python Dev at CloudLinux and served as a research assistant in applied AI at the Mathematics Research Center (CIMAT), part of the National Consortium of Science and Technology (CONACYT) in Mexico. 
+    
+    I participated in a research project during a summer internship (2017) at the Aspuru-Guzik Research Group, in the Department of Chemistry and Chemical Biology at Harvard University, working with applied machine learning for molecular properties prediction and calibration. 
+    
+    I am (currently) a Google Developer Expert in Machine Learning.
 
 
 # Social section
@@ -28,22 +32,30 @@ social:
 
 # Experience section
 experience:
-  item0:
+  item7:
+    position: ML Engineer
+    company: Zetalabs S.L.
+    from: March 2021
+    to: Present
+    description: >
+      Leading the AI development team. Contributing with computer vision tasks for company's product.
+    link: http://codeandomexico.org/
+  item6:
     position: Community Leader
     company: Codeando México
     from: September 2019
-    to: Present
+    to: February 2021
     description: >
       Codeando México mainly focuses on executing activities that connect society and governments, the usage of technologies and internet-based solutions for civic purposes.
     link: http://codeandomexico.org/
-  item1:
+  item5:
     position: Open Data Coordinator
     company: LAB León / General Direction of Innovation León
     from: July 2018
     to: September 2019
     description: >
       Pushing efforts to open (and work with) data in the city. Helping the city with trainings for digital jobs, including programming courses on Python and web development.
-  item2:
+  item4:
     position: AI Consultant
     company: NULLSEC (Startup)
     from: July 2019
@@ -59,14 +71,14 @@ experience:
     description: >
       Lead ML engineer in Omdena's collaborative tree identification challenge to prevent fire outbursts. Contributed with the models developed and the data preprocessing (we develped a Python package for it).
     link: https://medium.com/omdena/building-ai-for-good-by-the-people-for-the-people-d98ad78b5001
-  item4:
+  item2:
     position: Jr. Python Software Developer
     company: CloudLinux
     from: February 2019
     to: May 2019
     description: >
       In charge of building automation solutions with Python. The tech stack used includes Scrapy, Luigi, requests, and MongoDB.
-  item5:
+  item1:
     position: AI Research Assistant
     company: Research Center in Mathematics (CIMAT A.C.)
     from: February 2018
@@ -145,25 +157,25 @@ tools:
   # Consider that the following are fa icons:
   #   https://fontawesome.com/icons?d=gallery&s=brands
   - python
+  - markdown
   - git-alt
   - github
-  - gitlab
-  - gitkraken
-  - raspberry-pi
+  - docker
+  - digital-ocean
   - google
   - google-drive
   - slack
   - trello
-  - markdown
-  - html5
-  - bootstrap
+  - apple
+  - linux
+  - raspberry-pi
 extra_skills:
-  - Facebook Messenger, Telegram, and SMS bots
+  # - Facebook Messenger, Telegram, and SMS bots
   - Web scraping and web automation
   - APIs and web development, MongoDB
   - Image processing and computer vision
   - Machine learning and deep learning
-  - Many Python packages – Flask, NumPy, matplotlib, Tensorflow, etc.
+  - Several Python packages – Flask, NumPy, matplotlib, TensorFlow, etc.
 
 
 # Talks and workshops section
