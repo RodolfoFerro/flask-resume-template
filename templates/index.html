@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="A simple resume template built with Flask, based on Start Bootstrap resume template.">
-  <meta name="author" content="Rodolfo Ferro <rodolfoferroperez@gmail.com>">
+  <meta name="author" content="Rodolfo Ferro <rodolfoferro@gmail.com>">
 
   <title>Portfolio - {{ data.profile.first_name }} {{ data.profile.last_name }}</title>
 
@@ -20,7 +20,7 @@
 
   <!-- Custom styles for this template -->
   <link href="static/css/resume.css" rel="stylesheet">
-  <link rel="shortcut icon" href="https://avatars3.githubusercontent.com/u/36435547" type="image/x-icon">
+  <link rel="shortcut icon" href="static/img/comp_13.gif" type="image/x-icon">
 
 </head>
 
@@ -114,7 +114,7 @@
           </li>
           {% endfor %}
         </ul>
-        
+
         <div class="subheading mb-3">Extra skills / knowledge</div>
         <ul class="fa-ul mb-0">
           {% for item in data.extra_skills %}
@@ -160,7 +160,7 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
-        
+
         {% for _, item in data.education.items() %}
         {% if _ != 'reference' %}
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -186,7 +186,7 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="community">
       <div class="w-100">
         <h2 class="mb-5">Community and social activity</h2>
-        
+
         {% for _, item in data.community.items() %}
         {% if _ != 'reference' %}
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -231,7 +231,7 @@
               Event site <i class="fa fa-external-link-alt text-light"></i>
             </a></sup>
             {% endif %}
-            <br> {{ item.workshop }} 
+            <br> {{ item.workshop }}
             {% endif %}
           </li>
           {% endfor %}
@@ -295,7 +295,7 @@
         </ul>
       </div>
     </section>
-    
+
     <div class="container">
     <p class="small float-right">This Flask template was built with <i class="fas fa-heart text-danger"></i> by <a href="https://rodolfoferro.xyz" target="_blank">Rodolfo Ferro</a>, under a MIT License.</p>
     </div>

@@ -1,154 +1,70 @@
 # Profile section
 profile:
-  first_name: Rodolfo
-  last_name: Ferro
-  picture: https://cdn.glitch.com/88028f3b-2a37-4207-9b84-e56ad97a9d3d%2Frodo_2021.png?v=1622471953248   # Hosted picture
-  # picture: static/img/rodo_2021.png  # Local picture
+  first_name: Nicodemo
+  last_name: Zilli
+  # picture: https://cdn.glitch.com/88028f3b-2a37-4207-9b84-e56ad97a9d3d%2Frodo_2021.png?v=1622471953248   # Hosted picture
+  picture: static/img/Nico.jpeg  # Local picture
   contact:
-    address_one: León, Guanajuato
+    address_one: Córdoba, Veracruz
     address_two:
-    phone: (477) ASK-4-IT!
-  email: rodolfoferroperez@gmail.com
-  description: |
-    I am a Machine Learning Engineer at Zetalabs S.L. (Spain) and I also collaborate as a Digital Sherpa for the national education program "Innovacción Virtual" with Microsoft Mexico.
-    
-    I've worked as a Python Dev at CloudLinux and served as a research assistant in applied AI at the Mathematics Research Center (CIMAT), part of the National Consortium of Science and Technology (CONACYT) in Mexico. 
-    
-    I participated in a research project during a summer internship (2017) at the Aspuru-Guzik Research Group, in the Department of Chemistry and Chemical Biology at Harvard University, working with applied machine learning for molecular properties prediction and calibration. 
-    
-    I am (currently) a Google Developer Expert in Machine Learning.
+    phone: Ask 4 it!
+  email: nicozv13@gmail.com
+  description: 
+    Soy Ingeniero en Sistemas Computacionales, con especialidad en Ingeniería Web.
+    Desarrollador Web Full Stack, interesado en el desarrollo ético de la Inteligencia Artificial.
+    Con capacidad para aprender y aplicar mis conocimientos en el ámbito profesional.
+    En busca de una oportunidad en la que pueda desarrollar mis habilidades y adquirir experiencia.
 
 
 # Social section
 social:
-  website: https://rodolfoferro.xyz
-  github: https://github.com/RodolfoFerro/
-  twitter: https://twitter.com/FerroRodolfo/
-  linkedin: https://www.linkedin.com/in/rodolfoferro/
-  facebook:
-  dev: https://dev.to/rodolfoferro
-  medium: https://medium.com/@FerroRodolfo
-
+  website: https://nicodemozilli.github.io
+  github: https://github.com/NicodemoZilli/
+  twitter: https://twitter.com/ZvNico/
+  linkedin: https://www.linkedin.com/in/nicodemozilli/
+  dev: https://dev.to/nicodemozilli
+# facebook:
+# medium: https://medium.com/@
 
 # Experience section
 experience:
-  item7:
-    position: ML Engineer
-    company: Zetalabs S.L.
-    from: March 2021
-    to: Present
-    description: >
-      Leading the AI development team. Contributing with computer vision tasks for company's product.
-    link: http://codeandomexico.org/
-  item6:
-    position: Community Leader
-    company: Codeando México
-    from: September 2019
-    to: February 2021
-    description: >
-      Codeando México mainly focuses on executing activities that connect society and governments, the usage of technologies and internet-based solutions for civic purposes.
-    link: http://codeandomexico.org/
-  item5:
-    position: Open Data Coordinator
-    company: LAB León / General Direction of Innovation León
-    from: July 2018
-    to: September 2019
-    description: >
-      Pushing efforts to open (and work with) data in the city. Helping the city with trainings for digital jobs, including programming courses on Python and web development.
-  item4:
-    position: AI Consultant
-    company: NULLSEC (Startup)
-    from: July 2019
-    to: September 2019
-    description: >
-      Working as an AI consultant for NULLSEC, a computer security company focused on ethical hacking. Particularly helping in the development of NullRansom, an analyzer-debugger software with the purpose of filtering TCP protocol requests, preventing preventively being targeted by malware and ransomware viruses.
-    link: http://www.nullsec.site
-  item3:
-    position: Lead ML Engineer
-    company: Omdena
-    from: May 2019
-    to: July 2019
-    description: >
-      Lead ML engineer in Omdena's collaborative tree identification challenge to prevent fire outbursts. Contributed with the models developed and the data preprocessing (we develped a Python package for it).
-    link: https://medium.com/omdena/building-ai-for-good-by-the-people-for-the-people-d98ad78b5001
-  item2:
-    position: Jr. Python Software Developer
-    company: CloudLinux
-    from: February 2019
-    to: May 2019
-    description: >
-      In charge of building automation solutions with Python. The tech stack used includes Scrapy, Luigi, requests, and MongoDB.
   item1:
-    position: AI Research Assistant
-    company: Research Center in Mathematics (CIMAT A.C.)
-    from: February 2018
-    to: February 2019
+    position: Java Backend Developer
+    company: TecNM CENIDET
+    from: August 2021
+    to: December 2021
     description: >
-      On charge of doing research and building neural networks for computer vision problems, focused on applications and solutions for real industry issues. Deployed trained models to production.
-  reference: https://rodolfoferro.xyz/resume/
+      Developing a Backend Java application for calculating quality metrics of software architectures
+  reference: https://nicodemozilli.github.io/resume/
 
 
 # Education section
 education:
   item1:
-    institution: Artificial Intelligence CONACYT Consortium – CIMAT A.C.
-    program: Winter School on Artificial Intelligence
-    description: Attendee to workshops on optimization, deep learning and reinforcement learning. Event organized by the National Consortium on Science and Technology in Mexico.
-    from: February 2019
-    to: February 2019
+    institution: Tecnológico Nacional de México Campus Orizaba / ITO
+    program: Ingeniería en Sistemas Computacionales
+    description: Especialidad en Ingeniería Web
+    from: Agosto 2017
+    to: Diciembre 2021
   item2:
-    institution: University of Guanajuato / CIMAT A.C.
-    program: Bachelor of Mathematics
-    description: Major in Mathematics with Mathematical Computing as terminal area.
-    from: August 2011
-    to: July 2018
-  item3:
-    institution: Harvard University
-    program: Summer Internship – Adapting machine learning techniques for chemistry problems.
-    description: Worked on a project to calibrate and predict molecular properties using Gaussian processes.
-    from: June 2017
-    to: August 2017
-  reference: https://rodolfoferro.xyz/resume/
+    institution: Centro de Bachillerato Tecnológico Industrial y de Servicios No. 47 CBTIS No. 47
+    program: Técnico en Soporte y Mantenimiento de Equipo de Cómputo
+    description: Administración y Reparación de equipos de Computo y Redes. CED PROF '12557082'
+    from: August 2014
+    to: July 2017
+  reference: https://nicodemozilli.github.io/resume/
 
 
 # Community section:
 community:
   item0:
-    institution: Omdena
-    program: Community Builder
-    description: "Selected as a community builder at Omdena due to exemplary performance in their AI challenge on the tree identification challenge to prevent fire outbursts."
-    from: September 2019
-    to: Present
-    link: https://omdena.com
-  item1:
-    institution: Future Lab
-    program: Co-founder and Coordinator
-    description: "Co-founder and coordinator of Future Lab, a community of tech developers for the future. We maily work under three axis: a) Develop awesome tech based projects, b) Share knowledge with the community, and c) Networking with other communities. As a member of Future Lab I have participated on big events such as Talent Land with an AI talk."
-    from: April 2017
-    to: Present
-    link: https://futurelab.mx
-  item2:
-    institution: GitHub Education
-    program: GitHub Campus Experts Program
-    description: Mexican member of the GitHub Campus Experts Program, encouraging to empower other student communities. I also serve as a mentor in different events such as Startup Weekends, hackathons, innovation events, etc.
-    from: October 2017
-    to: Present
-    link: https://githubcampus.expert/RodolfoFerro/
-  item3:
-    institution: Clubes de Ciencia México
-    program: Guanajuato Comitee Member and Instructor
-    description: Co-organizer of the intensive one-week summer science workshops of Clubes de Ciencia México in Guanajuato. Besides organizing, I have participated teaching science workshops (in particular a physics workshop, based on a Nobel Prize design, and artificial intelligence workshops) for high school and undergrad students.
-    from: January 2015
-    to: Present
-    link: https://www.clubesdeciencia.mx
-  item4:
-    institution: Google Programs
-    program: Google Student Ambassador and GDG
-    description: Served as a Google Student Ambassador Latam for the University of Guanajuato, empowering the student community with Googleness and Google technologies to make their life easier. Currently helping the GDG León with tech talks and workshops about AI as a core member of the team. Do cool things that matter.
-    from: August 2014
-    to: July 2015
-    link: https://www.meetup.com/es/GDGLeon/
-  reference: https://rodolfoferro.xyz/resume/
+    institution:
+    program:
+    description:
+    from:
+    to: Octubre 2018
+    link:
+  reference:
 
 
 
@@ -156,180 +72,80 @@ community:
 tools:
   # Consider that the following are fa icons:
   #   https://fontawesome.com/icons?d=gallery&s=brands
+  - java
   - python
+  - php
+
+  - html5
+  - css3
+  - js
+
+  - react
+  - wordpress
+  - cpanel
+
   - markdown
-  - git-alt
+  - git
   - github
-  - docker
+  - gitlab
+
   - digital-ocean
+  - aws
   - google
-  - google-drive
-  - slack
-  - trello
+
   - apple
   - linux
-  - raspberry-pi
+  - centos
 extra_skills:
   # - Facebook Messenger, Telegram, and SMS bots
-  - Web scraping and web automation
-  - APIs and web development, MongoDB
-  - Image processing and computer vision
-  - Machine learning and deep learning
-  - Several Python packages – Flask, NumPy, matplotlib, TensorFlow, etc.
-
+  - Web development, full stack, MySQL PostgreSQL
+  - Machine learning con ML.js
+  - Java development, full stack
+  - Arduino and Internet of things
+  - Cross Platform App Development with AJAX and JSON
+  - Data Administrator on MySQL and PostgreSQL
 
 # Talks and workshops section
 workshops:
-  item0:
-    event: TEDxUNAMLeón
-    workshop: AI in modern times, February 2020.
-    material:
-    link: https://www.ted.com/tedx/events/35293
   item1:
-    event: PyCon Colombia 2020
-    workshop: 'Workshop – DLaaS: Building cloud-based intelligent solutions, February 2020.'
-    material: https://github.com/RodolfoFerro/PyConCo20
-    link: https://www.pycon.co/ponentes/rodolfo-ferro/
-  item2:
-    event: International Meeting on Artificial Intelligence and its Applications (RIIAA) 2.0.
-    workshop: Workshop – Deep Learning as a Service (DLaaS), August 2019.
-    material: https://github.com/RodolfoFerro/RIIAA19-DLaaS
-    link: https://riiaa.org
-  item3:
-    event: LAB León Web Dev Crash Course 2019.
-    workshop: Crash Course – Introduction to Web Development with Python and Flask, August 2019.
-    material: https://github.com/RodolfoFerro/Flask101
-    link: https://flask101.glitch.me
-  item4:
-    event: DevDay León 2019 by Hackademy.
-    workshop: Workshop – (AI) API development with Python, August 2019.
-    material: https://github.com/RodolfoFerro/PythonBaseAPI
-    link:
-  item5:
-    event: Clubes de Ciencia México 2019.
-    workshop: Workshop – Revealing the Hidden Hyperspectrum with Artificial Neurons, July 2019.
-    material: https://rodolfoferro.xyz/hyperspectrum/
-    link:
-  item6:
-    event: DevDay Mérida 2019.
-    workshop: Workshop – Artificial Intelligence with Python, July 2019.
-    material: https://github.com/RodolfoFerro/DevDayMid2019
-    link:
-  item7:
-    event: Talent Land 2019.
-    workshop: Talk – A.I. in modern times, April 2019.
-    material:
-    link: https://jaliscotalentland2019.sched.com/event/MzAs/inteligencia-artificial-en-tiempos-modernos
-  item8:
-    event: PythonDay México 2018.
-    workshop: Talk – Data Science with Python, December 2018.
-    material: https://github.com/RodolfoFerro/DataSciPy
-    link:
-  item9:
-    event: PythonDay México 2018.
-    workshop: Workshop – Machine Learning as a Service (MLaaS), November 2018.
-    material: https://github.com/RodolfoFerro/MLaaS
-    link:
-  item10:
-    event: HERE Hackathon at Technological University of Leon.
-    workshop: Mentor on the event. Talk – Integration of Technological Solutions, November 2018.
-    material: https://github.com/RodolfoFerro/HereHackathon
-    link:
-  item11:
-    event: 6th. International Conference in Software Engineering Research and Innovation (CONISOFT).
-    workshop: Workshop – Introduction to Neural Networks with Keras, October 2018.
-    material: https://github.com/RodolfoFerro/CONISOFT2018
-    link: http://conisoft.org/2018/public/
-  reference: https://rodolfoferro.xyz/resume/
+    event: Coloquio de Investigación Multidisciplinaria CIM Octubre 2018, TecNM campus Orizaba
+    workshop: Investigación Educativa
+    material: "Análisis de la realidad del aprendizaje de programación en el Instituto Tecnológico de Orizaba"
+    link: http://cim.orizaba.tecnm.mx/?page_id=161
+  reference: https://nicodemozilli.github.io/resume/
 
 
 # Projects section
 projects:
   item1:
+    title: MSCCAS
+    subtitle: Marco de Servicios de Cálculo de Calidad de Arquitecturas de Software
+    description: Aplicación Backend que espera conexiones de una aplicación Frontend para el cálculo de calidad.
+    link:
+    github: https://github.com/NicodemoZilli/PR-MarcoMCAS-GUIServer-IJ
+    img: msccas.png
+    tags: [JAVA, JSON, HTTP]
+  item2:
+    title: GUI - MSCCAS
+    subtitle: Interfaz de pruebas para el Marco de Servicios de Cálculo de Calidad de Arquitecturas de Software
+    description: Aplicación Frontend Web de prueba para el cálculo de calidad.
+    link: http://www.nicodemozilli.systems/smmcas/
+    github: https://github.com/NicodemoZilli/PR-MarcoMCAS-Web-Frontend
+    img: gui-msccas.png
+    tags: [PHP, HTML5, JS, CSS3]
+  item3:
     title: flask-resume-template
     subtitle: A resume template built with Flask
     description: An easy-to-configure simple resume template built with Flask and Bootstrap.
-    link: https://flask-resume-template.glitch.me
-    github: https://github.com/RodolfoFerro/flask-resume-template/
+    link: https://nicodemozilli.glitch.me
+    github: https://github.com/NicodemoZilli/flask-based-resume-nicodemozilli/
     img: flask-resume-template.png
     tags: [Flask, Python, Bootstrap]
-  item2:
-    title: DLaaS
-    subtitle: Google Colab Notebooks
-    description: A set of Google Colab notebooks and a Flask base API to learn and serve Deep Learning. Prepared for my workshop at RIIAA 2.0.
-    link: https://rodolfoferro.xyz/RIIAA19-DLaaS/
-    github: https://github.com/RodolfoFerro/RIIAA19-DLaaS
-    img: riiaa.png
-    tags: [Python, Tensorflow 2.0, Keras, Deep Learning]
-  item3:
-    title: impipes
-    subtitle: Python package
-    description: A Python package to build image pipelines in a simple way. Preprocess data to feed neural networks in an easier way.
-    link: https://impipes.readthedocs.io/en/latest/
-    github: https://github.com/RodolfoFerro/impipes
-    img: impipes.png
-    tags: [Python, PyPI, Images, Data Preprocessing, Documentation]
-  item4:
-    title: MNIST Web Classifier
-    subtitle: A CNN served as a web platform
-    description: Classify handwritten digits directly on your computer or your phone. As simple as taking a picture of a written random multi-digit number.
-    link: https://flask-micro-template.glitch.me
-    github: https://github.com/RodolfoFerro/flask-micro-template
-    img: keras-mnist.png
-    tags: [Python, Bootstrap, Web Platform, Flask, MNIST, CNN, Keras]
-  item5:
-    title: EmojiMerida
-    subtitle: Google Colab Notebook
-    description: A real-time coding session with an emotion recognizer on facial expressions for a Data Mérida meetup (01/04/2019). The Ai was developed with Python and Keras.
-    link: https://colab.research.google.com/github/RodolfoFerro/EmojiMerida/blob/master/Data_M%C3%A9rida.ipynb
-    github:
-    img: data-merida.png
-    tags: [Python, Computer Vision, Keras, Neural Networks]
-  item6:
-    title: PythonBaseAPI
-    subtitle: API template built with Flask
-    description: API template built with Python and Flask. Serve an Iris classifier as an API. Content for a workshop.
-    link: https://docs.google.com/presentation/d/e/2PACX-1vSc7Q82-lwQ8fKgR5WcT7Y0r9kotcYiNuyYjHRlF-fdhf6lkIrF9B_2akvzL-ZQ6ZAyT1lxM9f0mPdx/pub?start=false&loop=false&delayms=3000
-    github: https://github.com/RodolfoFerro/PythonBaseAPI
-    img: python-base-api.png
-    tags: [Flask, Python, API, scikit-learn]
-  item7:
-    title: flask-micro-template
-    subtitle: A micro template built with Flask
-    description: A micro template built with Flask and Bootstrap. Used for minimal testing in Glitch.
-    link: https://flask-micro-template.glitch.me
-    github: https://github.com/RodolfoFerro/flask-micro-template
-    img: flask-micro-template.png
-    tags: [Flask, Python, Bootstrap]
-  item8:
-    title: moltransform
-    subtitle: Python package
-    description: Molecular transformations for graphic displaying using Cartesian coordinates.
-    link: https://pypi.org/project/moltransform/
-    github: https://github.com/RodolfoFerro/moltransform
-    img: moltransform.png
-    tags: [Python, PyPI, Molecules, Rigid Transformations]
-  item9:
-    title: FitbitVersa-SimpleOmnitrix
-    subtitle: Fitbit Versa Clockface
-    description: My first clock face for Fitbit Versa, inspired in Ben 10's Omnitrix.
-    link: https://gallery.fitbit.com/details/6c75fa41-8de0-41db-b851-f21f7447018b
-    github: https://github.com/RodolfoFerro/FitbitVersa-SimpleOmnitrix
-    img: simple-omnitrix.png
-    tags: [TypeScript, Ben 10, Fitbit, Fitbit Versa]
-
 
 # Certifications and awards section
 awards:
-  - 'Winner – #TFWorld TF 2.0 Challenge – TensorFlow at Devpost 2020'
-  - Academy and Technology – Statal Youth Prize Guanajuato 2018
-  - Quantum Computing 101 – IBM Q Certification Badge 2018
-  - 1st. Place – HDI Challenge – Talent City Hackathon 2018
-  - 1st. Place – SWITCH Hackathon 2017
-  - 1st. Place – IBM Hackapalooza – Bluehack Hackathon 2017
-  - 1st. Place – 12th. Creativity and Innovation Contest at the University of Guanajuato 2017
-  - 1st. Place – Centro Fox National Hackathon 2017
-  - 1st. Place – 6th. Creativity and Innovation Contest, DCEA-UG 2016
-  - Silver Award – SynBio Giant Jamboree – iGEM  2016
-  - 1st. Place – 4th. Creativity and Innovation Contest, DCNE-UG 2016
-  - 1st. Place – Fintech – HackBajío Hackathon 2016
+  - Open Data Science 21-25 Octubre 2019
+  - Arduino y Algunas Aplicaciones 15-27 Octubre 2019
+  - Master Programmer 12 Septiembre 2019
+  - Control de Versiones con Git Junio 2019
+  - Programación en Python 21-25 Octubre 2017
